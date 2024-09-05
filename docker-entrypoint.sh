@@ -61,7 +61,7 @@ generate_config() {
                 "decryption": "none"
             },
             "streamSettings": {
-                "network": "tcp",
+                "network": "ws",
                 "security": "reality",
                 "realitySettings": {
                     "show": false,
