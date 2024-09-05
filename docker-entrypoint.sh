@@ -118,6 +118,8 @@ vless://${UUID}@${IP}:${PORT}?encryption=none&flow=xtls-rprx-vision&security=rea
 EOF
 
 base64 -w0 ${FILE_PATH}/list.txt > ${FILE_PATH}/url.txt
+echo $PublicKey
+echo $vless
 cat ${FILE_PATH}/url.txt
 echo -e "\n\e[1;32m${FILE_PATH}/url.txt saved successfully\e[0m"
 rm -rf ${FILE_PATH}/list.txt
